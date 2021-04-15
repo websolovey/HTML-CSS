@@ -1,0 +1,90 @@
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  background-image: url(../img/top-slider-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 623px;
+
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  }
+}
+.contact-info__title {
+  color: $white;
+
+  position: absolute;
+  left: 0;
+  top: 120px;
+
+  z-index: 2;
+
+  margin: 0;
+}
+
+.contact-info__discription {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+
+  color: $white;
+
+  position: absolute;
+  left: 0;
+  top: 229px;
+
+  z-index: 2;
+}
+
+
+.contacts-item{
+    font-style: normal;
+    font-weight: normal;
+  
+    font-size: 1.4rem;
+    line-height: 2rem;
+
+    color:$white;
+
+    position: absolute;
+    left: 0;
+    top: 352px;
+
+    z-index: 2;
+  }
+
+  .item--phone {
+    display: flex;
+  }
+  
+  .item--email {
+      left: 240px;
+
+      display: flex;
+  }
+  
+  .contacts-item-icon {
+    width: 2rem;
+    height: 2rem;
+
+    fill: #fff;
+
+    margin-right: 20px;
+  }
+
+

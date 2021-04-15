@@ -1,0 +1,106 @@
+.contact-form {
+  padding-right: 204px;
+
+  position: absolute;
+  right: 0;
+  top: 173px;
+
+  z-index: 2;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4rem;
+
+  color: $white;
+}
+
+.form__group {
+  position: relative;
+
+  margin-bottom: 30px;
+}
+
+.name-and-email {
+  position: relative;
+  margin-bottom: 93px;
+}
+
+.form__group--email {
+  width: 48%;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.form__group--name {
+  width: 48%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form__input {
+  width: 100%;
+
+  padding-bottom: 15px;
+
+  border: none;
+  border-bottom: 1px solid $white;
+
+  background-color: transparent;
+
+  color: $white;
+
+  transition: 0.3s;
+
+  &:focus ~ .form__label,
+   &:not(:placeholder-shown) ~ .form__label {
+     
+    font-size: 1rem;
+    line-height: 1.4rem;
+    top: -20px;
+    
+  }
+}
+
+.form__label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  color: $gray;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transition: 0.3s;
+}
+
+.form__button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  text-align: center;
+
+  color: $white;
+  background-color: $blue;
+
+  padding: 19px 18px;
+
+  border: none;
+  outline: none;
+
+  float: right;
+
+  &:hover {
+    background-color: #00508a;
+    color: #f2f2f2;
+    transition: all 0.1s linear;
+  }
+}

@@ -1,0 +1,33 @@
+.our-clients__slider {
+  position: relative;
+}
+.slider-img {
+  margin-right: 19px;
+}
+
+#our-clients__slider .slick-dots > li > button {
+  background: $blue;
+}
+#our-clients__slider .slick-dots {
+    bottom: -96%;
+    left: 0%;
+}
+
+
+.blue-arrow {
+  top: 72%;
+
+  background-color: rgba(0, 95, 163, 1);
+
+  &:hover {
+    background-color: rgba(0, 95, 163, 0.2);
+  }
+
+  &.arrow--next {
+    left: 81%;
+  }
+  &.arrow--prev {
+    left: 77%;
+
+  }
+}

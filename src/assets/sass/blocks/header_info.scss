@@ -1,0 +1,31 @@
+.header__info{
+  display: flex;
+  flex-basis: 100%;
+}
+
+.header__info-list {
+  display: flex;
+  flex-basis: 100%;
+
+}
+
+.info-list-item {
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 25%;
+
+}
+
+.list__item-icon {
+  width: 17px;
+  height: 17px;
+
+  fill: $blue;
+}

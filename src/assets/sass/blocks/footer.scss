@@ -1,0 +1,18 @@
+.footer {
+  background-color: #f9f9f9;
+  padding: 50px 0 50px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.2rem;
+
+  color: $black;
+}

@@ -1,0 +1,19 @@
+.header__logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__logo-text{
+    margin-left: 2rem;
+
+    font-family: Merriweather;
+    font-style: normal;
+
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 3.33rem;
+
+    color: $blue;
+
+}

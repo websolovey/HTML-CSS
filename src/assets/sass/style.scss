@@ -1,0 +1,52 @@
+@import "_reset";
+@import "vars";
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+   font-family: 'Lato', sans-serif,'Merriweather', serif;
+
+   background-color: #E5E5E5;
+   color: $black;
+
+   font-size: 1rem;
+   line-height: 1.5;
+}
+
+/*Bootstrap*/
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/buttons";
+
+
+/*Blocks*/
+
+@import "blocks/header";
+@import "blocks/header_logo";
+@import "blocks/header_info";
+@import "blocks/header_menu";
+@import "blocks/menu-burger";
+@import "blocks/top-slider";
+@import "blocks/slider-button";
+@import "blocks/services";
+@import "blocks/titles";
+@import "blocks/about";
+@import "blocks/our-clients";
+@import "blocks/our-clients__slider";
+@import "blocks/reviews";
+@import "blocks/contact";
+@import "blocks/contact-form";
+@import "blocks/footer";
+
+/*Vendors*/
+@import "vendor/slick";
+

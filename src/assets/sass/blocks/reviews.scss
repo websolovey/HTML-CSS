@@ -1,0 +1,70 @@
+.reviews {
+  position: relative;
+
+  padding: 100px 0 240px 0;
+
+  background: #f9f9f9;
+}
+
+.reviews__content {
+  background: $bg_gray;
+
+  padding: 45px 95px;
+  margin-top: 72px;
+}
+
+.reviews__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+
+  color: $black;
+
+  margin-bottom: 58px;
+}
+
+.reviews__person-portret {
+  float: left;
+  margin-right: 35px;
+}
+
+.person-info {
+  padding-top: 20px;
+}
+
+.reviews__person-name {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+
+  color: $black;
+}
+
+.reviews__person-discription {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.2rem;
+
+  color: #4f4f4f;
+}
+
+#reviews__slider .slick-dots > li > button {
+  background: $blue;
+}
+#reviews__slider .slick-dots {
+  top: 123%;
+  left: 0%;
+}
+
+#reviews__arrow--next {
+  left: 82.5%;
+  top: 78%;
+}
+#reviews__arrow--prev {
+  left: 78.5%;
+  top: 78%;
+
+}
